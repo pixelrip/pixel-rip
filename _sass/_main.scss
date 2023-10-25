@@ -10,8 +10,27 @@ body {
     color: var(--hex-white);
 }
 
+a,
+a:active,
+a:visited {
+    color: var(--hex-magenta); /* A blue color by default. You can change this to any color you prefer. */
+    text-decoration: none;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+}
+  
+a:hover {
+    color: var(--hex-white);
+    text-decoration: underline;
+}
+  
+a:focus {
+    outline: thin dotted;
+}
 
-/* Home Page
+
+
+/* Home Page: Intro
    =================================== */
 .intro {
     max-width: 40rem;
@@ -24,7 +43,7 @@ a.intro_email:visited {
     text-decoration: none;
     background-color: transparent;
     transition: color 0.3s ease-in-out;
-    font-size: 60px
+    font-size: 2.5em;
 }
   
 a.intro_email:hover {
@@ -39,4 +58,32 @@ a.intro_email:focus {
 
 .intro_email_domain {
     color: var(--hex-magenta);
+}
+
+/* Home Page: "Cookie" banner
+   =================================== */
+
+.anti-cookie-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    border-top: 3px solid var(--hex-white);
+    padding: 0.5em 2em
+}
+
+p.anti-cookie-banner-text {
+    font-size: 0.75em;
+    font-weight: 100;
+}
+
+.anti-cookie-banner-close { 
+    float: right;
+    margin-left: 2em;
+}
+
+a.anti-cookie-banner-close:hover {
+    color: var(--hex-magenta);
+    text-decoration: none;
 }
