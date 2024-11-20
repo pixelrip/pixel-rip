@@ -47,15 +47,15 @@ description: PIXEL.RIP puts its heart into making games with a positive social i
 
 
 
-<h1>Tags</h1>
+<h2>More</h2>
 
 {% assign tags = site.tags | sort %}
-<div class="tag-list">
+<div class="tags">
   {% for tag in tags %}
     {% assign tag_name = tag | first %}
     {% assign posts = tag | last %}
-    <a href="/tags/{{ tag_name | slugify }}/" class="tag-item">
-      {{ tag_name }} ({{ posts | size }})
-    </a>
+    <a href="/tags/{{ tag_name | slugify }}/" class="tag">{{ tag_name }} <span class="tag-count">{{ posts | size }}</span></a>
   {% endfor %}
 </div>
+
+<div class="footer">Want to get in touch? Email go@pixel.rip.</div>

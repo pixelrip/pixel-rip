@@ -1,12 +1,24 @@
-.tag {
+.tag, a.tag {
     display: inline-block;
     padding: 0.125em 0.5em;
-    background-color: var(--hex-magenta);
+    background-color: var(--pico-dark-blue);
     color: var(--pico-white);
     border-radius: 2px;
     transition: background-color 0.2s ease-in-out;
+    margin: 0 0.5em 0.5em 0;
+}
+
+a.tag:hover {
+    text-decoration: none;
+    background-color: var(--hex-magenta);
 }
 
 .tag::before {
     content: '#';
+}
+
+.tag-count {
+    display: inline-block;
+    font-size: 0.562em;
+    color: var(--pico-light-gray);
 }
