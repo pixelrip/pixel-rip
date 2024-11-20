@@ -14,7 +14,7 @@ to run: `bundle exec jekyll serve`
 
 ### Deploying
 
-???
+Currently setup to automatically deploy to `master` when changes are made on github.
 
 
 ### Categories and Front Matter
