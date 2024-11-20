@@ -11,10 +11,22 @@ a:visited {
 }
   
 a:hover {
-    color: var(--hex-white);
+    color: var(--pico-white);
     text-decoration: underline;
 }
   
 a:focus {
     outline: thin dotted;
 }
+
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    margin: 2em 0 1em 0;
+    border-top: 2px solid var(--pico-white);
+    padding-top: 1em
+}
+
