@@ -2,18 +2,19 @@
 title: "Getting Direction Angles with `atan2`"
 date: 2024-11-19
 category: codex
-layout: codex
+layout: codex-entry
 tags: [pico8, math]
 github: nil
+draft: true
 ---
 
 Todo: Embed goes here
 
-### Goal
+## Goal
 
 Fire a projectile between two objects. The projectile should be "aimed" at the target object, but should not track the target if it moves. 
 
-### How it Works
+## How it Works
 
 - 
 
@@ -24,7 +25,7 @@ We have two objects in the game. In this case the orange guy and the red guy. Fi
 function get_angle(src,tgt)
 	local y2=tgt.pos.y  
 	local x2=tgt.pos.x  
-
+m
 	local y1=src.pos.y  
 	local x1=src.pos.x 
 

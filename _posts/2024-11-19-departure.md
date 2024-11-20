@@ -4,7 +4,7 @@ date: 2024-11-19
 category: resources
 layout: resource
 tags: [art, design, font]
-url: https://github.com/rektdeckard/departure-mono
+xurl: https://github.com/rektdeckard/departure-mono
 ---
 
 

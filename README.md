@@ -14,18 +14,18 @@ to run: `bundle exec jekyll serve`
 
 ### Deploying
 
-Currently setup to automatically deploy to `master` when changes are made on github.
+Currently setup to automatically deploy to `master` when changes are made on github via Cloudflare.
 
 
 ### Categories and Front Matter
 Each category lives in a subfolder of `_posts`. Configuration for `category` and `layout` for each folder is in `_config.yml`
 
 - `resource`: links to useful tools, videos, etc
-    - `title"`
+    - `title: `
     - `date: YYYY-MM-DD`
     - `category: resources`
     - `layout: resource`
-    - `url`
+    - `xurl: `
     - `tags: [tag1, tag2]`
     - `pinned: true | false`
 
@@ -48,9 +48,3 @@ Each category lives in a subfolder of `_posts`. Configuration for `category` and
     - `tags: [tag1, tag2]`
     - `pinned: true | false`
 
-### Todo
-
-- [ ] New typeface(s)
-- [ ] Comments via github?
-- [ ] Logo downloads
-- [ ] 

@@ -2,6 +2,17 @@
 layout: default
 ---
 
-<h3>Notes Template</h3>
+
+<h1>{{ page.title }}</h1>
+
 
 {{ content }}
+
+
+{% if page.tags %}
+  <div class="tags">
+    {% for tag in page.tags %}
+      <a href="/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>
+    {% endfor %}
+  </div>
+{% endif %}
