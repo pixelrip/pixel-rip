@@ -1,14 +1,5 @@
 
-body {
-    font-family: 'PixelifySans', sans-serif;
-    font-size: 24px;
-    font-weight: 100;
 
-    margin: 2em;
-
-    background: var(--hex-black);
-    color: var(--hex-white);
-}
 
 a,
 a:active,
@@ -26,64 +17,4 @@ a:hover {
   
 a:focus {
     outline: thin dotted;
-}
-
-
-
-/* Home Page: Intro
-   =================================== */
-.intro {
-    max-width: 40rem;
-}
-
-a.intro_email,
-a.intro_email:active,
-a.intro_email:visited {
-    color: var(--hex-white); /* A blue color by default. You can change this to any color you prefer. */
-    text-decoration: none;
-    background-color: transparent;
-    transition: color 0.3s ease-in-out;
-    font-size: 2.5em;
-}
-  
-a.intro_email:hover {
-    color: var(--hex-magenta);
-    text-decoration: underline;
-}
-  
-a.intro_email:focus {
-    outline: thin dotted;
-}
-
-
-.intro_email_domain {
-    color: var(--hex-magenta);
-}
-
-/* Home Page: "Cookie" banner
-   =================================== */
-
-.anti-cookie-banner {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    border-top: 3px solid var(--hex-white);
-    padding: 0.5em 2em
-}
-
-p.anti-cookie-banner-text {
-    font-size: 0.75em;
-    font-weight: 100;
-}
-
-.anti-cookie-banner-close { 
-    float: right;
-    margin-left: 2em;
-}
-
-a.anti-cookie-banner-close:hover {
-    color: var(--hex-magenta);
-    text-decoration: none;
 }

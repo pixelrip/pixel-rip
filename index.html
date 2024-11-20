@@ -9,10 +9,6 @@ style: home
     <a href="mailto:go@pixel.rip" class="intro_email">go@<span class="intro_email_domain">pixel.rip</span></a>
     <p class="intro_mission">An independent game design studio on a mission to make games with a positive social impact.</p>
 </section>
-<section class="anti-cookie-banner">
-    <a class="anti-cookie-banner-close" href="#" onclick="alert('Oh, uhhh, sorry. That doesn\'t actually do anything right now but to be fair we didn\'t think anyone was going to click it.'); return false;">x</a>
-    <p class="anti-cookie-banner-text">This website does not use cookies because we have no interest in helping tech companies track what you're doing on the internet. For more information please review our <a href="/privacy-on-the-internet/">cookie policy</a>.</a></p>
-</section>
 
 <h1>Latest Posts</h1>
 <ul>
@@ -25,3 +21,18 @@ style: home
 </ul>
 
 <p>Total posts: {{ site.posts | size }}</p>
+
+
+
+<h1>Tags</h1>
+
+{% assign tags = site.tags | sort %}
+<div class="tag-list">
+  {% for tag in tags %}
+    {% assign tag_name = tag | first %}
+    {% assign posts = tag | last %}
+    <a href="/tags/{{ tag_name | slugify }}/" class="tag-item">
+      {{ tag_name }} ({{ posts | size }})
+    </a>
+  {% endfor %}
+</div>
