@@ -48,3 +48,14 @@ Each category lives in a subfolder of `_posts`. Configuration for `category` and
     - `tags: [tag1, tag2]`
     - `pinned: true | false`
 
+### Todo
+
+- [ ] tag links in hello world
+- [ ] tag pages
+- [ ] codex page
+- [ ] resources page
+- [ ] notes page
+- [ ] external links
+    - [ ] github
+    - [ ] bluesky?
+- [ ] responsive sidebar
