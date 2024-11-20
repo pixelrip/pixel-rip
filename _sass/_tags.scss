@@ -8,6 +8,8 @@
     margin: 0 0.5em 0.5em 0;
 }
 
+
+
 a.tag:hover {
     text-decoration: none;
     background-color: var(--hex-magenta);
@@ -15,6 +17,9 @@ a.tag:hover {
 
 .tag::before {
     content: '#';
+}
+.tag.no-hash::before {
+    content: '';
 }
 
 .tag-count {

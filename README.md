@@ -52,9 +52,9 @@ Each category lives in a subfolder of `_posts`. Configuration for `category` and
 
 - [x] tag pages
 - [x] tag links in hello world
-- [ ] /all posts page
-- [ ] finish atan2 post
+- [x] /all posts page
 - [ ] code highlighting (pico 8 colors?)
+- [ ] finish atan2 post
 - [ ] external links
     - [ ] github
     - [ ] bluesky?
@@ -64,5 +64,7 @@ Each category lives in a subfolder of `_posts`. Configuration for `category` and
 - [ ] /notes page
 - [ ] /contact page (form)
 - [ ] responsive sidebar
+- [ ] rss
 - [ ] black color around avatar.png
 - [ ] flatten
+- [ ] revise and test navigation
