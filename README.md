@@ -50,12 +50,19 @@ Each category lives in a subfolder of `_posts`. Configuration for `category` and
 
 ### Todo
 
-- [ ] tag links in hello world
-- [ ] tag pages
-- [ ] codex page
-- [ ] resources page
-- [ ] notes page
+- [x] tag pages
+- [x] tag links in hello world
+- [ ] /all posts page
+- [ ] finish atan2 post
+- [ ] code highlighting (pico 8 colors?)
 - [ ] external links
     - [ ] github
     - [ ] bluesky?
+    - [ ] newsletter
+- [ ] /codex page
+- [ ] /resources page
+- [ ] /notes page
+- [ ] /contact page (form)
 - [ ] responsive sidebar
+- [ ] black color around avatar.png
+- [ ] flatten
