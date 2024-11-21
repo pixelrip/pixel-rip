@@ -9,6 +9,8 @@ A little website for a little studio.
 
 ### Local Development
 
+first time: `bundle install`
+
 to run: `bundle exec jekyll serve`
 
 
@@ -53,16 +55,15 @@ Each category lives in a subfolder of `_posts`. Configuration for `category` and
 - [x] tag pages
 - [x] tag links in hello world
 - [x] /all posts page
-- [ ] code highlighting (pico 8 colors?)
+- [x] code highlighting (~~pico 8 colors?~~)
 - [ ] finish atan2 post
+- [ ] /contact page (form)
 - [ ] external links
     - [ ] github
-    - [ ] bluesky?
     - [ ] newsletter
 - [ ] /codex page
 - [ ] /resources page
 - [ ] /notes page
-- [ ] /contact page (form)
 - [ ] responsive sidebar
 - [ ] rss
 - [ ] black color around avatar.png

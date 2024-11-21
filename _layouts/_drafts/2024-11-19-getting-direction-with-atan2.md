@@ -5,7 +5,6 @@ category: codex
 layout: codex-entry
 tags: [pico8, math]
 github: nil
-draft: true
 ---
 
 Todo: Embed goes here
@@ -20,12 +19,12 @@ Fire a projectile between two objects. The projectile should be "aimed" at the t
 
 We have two objects in the game. In this case the orange guy and the red guy. First things first, we'll need a way to get the angle from the orange guy (src) to the red guy (tgt).
 
-```
+```lua
 
 function get_angle(src,tgt)
 	local y2=tgt.pos.y  
 	local x2=tgt.pos.x  
-m
+
 	local y1=src.pos.y  
 	local x1=src.pos.x 
 
@@ -41,7 +40,7 @@ In this case [atan2](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#ATAN2
 
 Next, we have a function that creates a bullet object and adds to it our `bullets` table.
 
-```
+```lua
 
 function fire_bullet(src,tgt)
 	local ang=get_angle(src,tgt)
@@ -61,7 +60,6 @@ function fire_bullet(src,tgt)
 	
 	add(bullets,bt)	
 end
-
 
 ```
 
