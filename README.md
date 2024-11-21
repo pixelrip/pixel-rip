@@ -24,7 +24,6 @@ Each category lives in a subfolder of `_posts`. Configuration for `category` and
 
 - `resource`: links to useful tools, videos, etc
     - `title: `
-    - `date: YYYY-MM-DD`
     - `category: resources`
     - `layout: resource`
     - `xurl: `
@@ -34,17 +33,14 @@ Each category lives in a subfolder of `_posts`. Configuration for `category` and
 
 - `codex`: debateably useful knowlege i've picked up along the way. proofs of concept, demos, etc. 
     - `title:`
-    - `date: YYYY-MM-DD`
     - `category: codex`
     - `layout: codex-entry`
-    - `github:`
     - `tags: [tag1, tag2]`
     - `pinned: true | false`
 
 
 - `notes`: meta content, updates, news, etc
     - `title`
-    - `date: YYYY-MM-DD`
     - `category: notes`
     - `layout: note`
     - `tags: [tag1, tag2]`
@@ -56,7 +52,9 @@ Each category lives in a subfolder of `_posts`. Configuration for `category` and
 - [x] tag links in hello world
 - [x] /all posts page
 - [x] code highlighting (~~pico 8 colors?~~)
-- [ ] finish atan2 post
+- [ ] codex: atan2
+- [ ] codex: velocity
+- [ ] codex: sin and cos
 - [ ] /contact page (form)
 - [ ] external links
     - [ ] github

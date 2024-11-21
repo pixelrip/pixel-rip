@@ -1,6 +1,5 @@
 ---
 title: Accessible.games by AbleGamers
-date: 2024-11-18
 category: resources
 layout: resource
 tags: [accessibility, gameplay]
