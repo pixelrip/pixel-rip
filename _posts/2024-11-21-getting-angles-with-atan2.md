@@ -5,8 +5,6 @@ layout: codex-entry
 tags: [pico8, math]
 ---
 
-{{ page.date | date: "%Y-%m-%d" }} in [codex](/codex/)
-
 ## Goal
 
 Fire a projectile between two objects. The projectile should be "aimed" at the target object, but should not track the target if it moves. 
@@ -19,7 +17,7 @@ Fire a projectile between two objects. The projectile should be "aimed" at the t
 
 ## How it Works
 
-We have two objects in the game. In this case the orange guy and the red guy. First things first, we'll need a way to get the angle from the orange guy (src) to the red guy (tgt).
+We have two objects in the game. In this case the orange guy and the red guy. First things first, we'll need a way to get the **angle** from the orange guy (`src`) to the red guy (`tgt`).
 
 ```lua
 
@@ -35,40 +33,40 @@ end
 
 ```
 
-I won't (ok, can't) explain what [atan2](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#ATAN2) does exactly, but I do know that if we give it the y distance between our objects, followed by the x distance, we'll get the angle between the two objects (something between 0 to 1). Trig, right?
+I won't (ok, can't) explain what [atan2()](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#ATAN2) does exactly, but I do know that if we give it the `y` distance between our objects, followed by the `x` distance, we'll get the **angle** between the two objects 
+(something between 0 to 1). Trig, right?
 
-Once we have an angle, we just create a bullet and give it the x (sin) and y (cos) velocity with that angle. 
+So next we create a bullet object that has an **angle** and **speed**:
 
 ```lua
 
 function fire_bullet(src,tgt)
-	local ang=get_angle(src,tgt)
-	local vx=sin(ang)*2
-	local vy=cos(ang)*2
-	
 	local bt={}
 	bt.spr=3
-	bt.pos={
-		x=src.pos.x,
-		y=src.pos.y
-	}
-	bt.vel={
-		x=vx,
-		y=vy
-	}
+	bt.x=src.x
+	bt.y=src.y
 	
+	bt.ang=get_angle(src,tgt)
+	bt.speed=2
+		
 	add(bullets,bt)	
 end
 
 ```
 
-At this point you might be like "Hold on, what? Velocity? Sin? Cos?"
+With the **angle** and **speed** attached to each bullet in the `bullets` table we just need to make sure they move using `sin()` and `cos()` on the `x` and `y` on every frame. 
 
-Yeah sorry about that, more math. It might be helpful to step back and take a look at these two items from the [codex](/codex):
+```lua
 
-1. TODO: Moving objects with velocity
-2. TODO: Sin and Cos
+-- in our update()
+for bt in all(bullets) do
+	bt.x += sin(bt.ang) * bt.speed 
+	bt.y += cos(bt.ang) * bt.speed
+end
+
+```
 
 
+I hear you saying "what the hell do `sin()` and `cos()` have to do with moving bullets on an angle?" Good question! I did my best to explain that here: [Sin and Cos for Movement](/codex/sin-and-cos/).
 
 
