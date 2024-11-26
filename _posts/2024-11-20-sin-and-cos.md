@@ -56,11 +56,13 @@ The **speed** is the distance on the screen (pixels) that the object will move p
 So, to make something move on a diagonal, we pass the **angle** into the `sin()` function for `x` (and the `cos()` function for the `y`) then multiply the **speed**.
 
 ```lua
+
 angle = 0.125
 speed = 2.5
 
 obj.x += sin(angle) * speed
 obj.y += cos(angle) * speed
+
 ```
 
 
