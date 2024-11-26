@@ -52,9 +52,8 @@ Each category lives in a subfolder of `_posts`. Configuration for `category` and
 - [x] tag links in hello world
 - [x] /all posts page
 - [x] code highlighting (~~pico 8 colors?~~)
-- [ ] codex: atan2
-- [ ] codex: velocity
-- [ ] codex: sin and cos
+- [x] codex: atan2
+- [x] codex: sin and cos
 - [ ] /contact page (form)
 - [ ] external links
     - [ ] github
