@@ -1,6 +1,5 @@
 ---
 title: Departure Typeface
-date: 2024-11-19
 category: resources
 layout: resource
 tags: [art, design, font]

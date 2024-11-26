@@ -21,16 +21,41 @@ a:focus {
 
 
 h1 {
-    font-size: 1.5rem;
-    margin-bottom: 1em;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 h2 {
-    margin: 2em 0 1em 0;
+    font-size: 1.5em;
+    margin: 4rem 0 1rem 0;
     border-top: 2px solid var(--pico-white);
-    padding-top: 1em
+    padding-top: 1rem
 }
 
 p {
     margin-bottom: 2em;
+}
+
+ul {
+    list-style-type: square;  
+    padding-left: 2em;     
+    margin: 2em 0;     
+  }
+  
+  li {
+    margin-bottom: 0.5em;  
+    line-height: 1.4; 
+    list-style-type: square;  
+  }
+
+code {
+    display: inline-block;
+    background-color: var(--pico-dark-blue);
+    padding: 0 0.5em
+}
+
+strong, b, em, i {
+    display: inline-block;
+    background-color: var(--pico-dark-purple);
+    padding: 0 0.5em
 }

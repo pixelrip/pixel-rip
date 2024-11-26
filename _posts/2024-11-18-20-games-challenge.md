@@ -1,6 +1,5 @@
 ---
 title: "20 Games Challenge"
-date: 2024-11-18
 category: resources
 layout: resource
 tags: [education, gameplay, dev]
