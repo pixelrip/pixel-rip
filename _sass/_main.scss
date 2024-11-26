@@ -35,3 +35,27 @@ h2 {
 p {
     margin-bottom: 2em;
 }
+
+ul {
+    list-style-type: square;  
+    padding-left: 2em;     
+    margin: 2em 0;     
+  }
+  
+  li {
+    margin-bottom: 0.5em;  
+    line-height: 1.4; 
+    list-style-type: square;  
+  }
+
+code {
+    display: inline-block;
+    background-color: var(--pico-dark-blue);
+    padding: 0 0.5em
+}
+
+strong, b, em, i {
+    display: inline-block;
+    background-color: var(--pico-dark-purple);
+    padding: 0 0.5em
+}
