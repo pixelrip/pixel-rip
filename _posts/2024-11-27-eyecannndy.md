@@ -1,4 +1,4 @@
-—--
+---
 title: Eyecandy
 category: resources
 layout: resource
