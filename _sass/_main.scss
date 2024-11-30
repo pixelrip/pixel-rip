@@ -1,0 +1,61 @@
+
+
+
+a,
+a:active,
+a:visited {
+    color: var(--hex-magenta); /* A blue color by default. You can change this to any color you prefer. */
+    text-decoration: none;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+}
+  
+a:hover {
+    color: var(--pico-white);
+    text-decoration: underline;
+}
+  
+a:focus {
+    outline: thin dotted;
+}
+
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 4rem 0 1rem 0;
+    border-top: 2px solid var(--pico-white);
+    padding-top: 1rem
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+ul {
+    list-style-type: square;  
+    padding-left: 2em;     
+    margin: 2em 0;     
+  }
+  
+li {
+    margin-bottom: 0.5em;  
+    line-height: 1.4; 
+    list-style-type: square;  
+  }
+
+code {
+    display: inline-block;
+    background-color: var(--pico-dark-blue);
+    padding: 0 0.5em
+}
+
+strong, b, em, i {
+    display: inline-block;
+    background-color: var(--pico-dark-purple);
+    padding: 0 0.5em
+}

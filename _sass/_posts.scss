@@ -1,0 +1,63 @@
+.posts, ul.posts {
+    list-style-type: none;  
+    padding-left: 0;
+    margin: 2em 0;     
+
+}
+
+.post, li.post {
+    margin-bottom: 1;  
+    line-height: 1.4; 
+    list-style-type: none;    
+    margin-left: -1em;
+}
+
+.post.pinned {
+    position: relative;
+    display: inline-block;
+    border: 2px solid var(--pico-dark-blue);
+    transform: rotate(-1.5deg); 
+    margin-bottom: 1em;
+}
+
+.post-pin {
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    top: -10px;
+    left: 3px; 
+    transform: rotate(-10deg);
+}
+.post-title {
+    margin-bottom: 0.25em;
+}
+
+a.post-link {
+    padding: 1em;
+    display: block;
+    border-radius: 2px;
+    transition: background-color 0.2s ease-in-out;
+
+    .post-detail {
+        color: var(--pico-light-gray)
+    }
+}
+
+a.post-link:hover {
+    background-color: var(--pico-dark-blue);
+    text-decoration: none;
+
+}
+
+.post-detail {
+    font-size: 0.6875rem;
+}
+
+.post-detail .tag {
+    color: var(--pico-white);
+    background-color: var(--pico-dark-blue);
+}
+
+a.post-link:hover .post-detail .tag {
+    background-color: var(--pico-indigo);
+}

@@ -1,0 +1,15 @@
+title: PIXEL.RIP
+description: PIXEL.RIP is putting its heart into making games with a positive social impact.
+author: PIXEL.RIP
+
+url: "https://pixel.rip" 
+baseurl: ""
+
+rss_description: Subscribe to all posts
+rss_limit: 20
+timezone: America/Chicago
+
+permalink: /:categories/:title/
+
+markdown: kramdown
+highlighter: rouge
