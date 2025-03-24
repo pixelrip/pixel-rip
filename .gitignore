@@ -6,3 +6,4 @@ _site/
 .bundle/
 vendor/
 assets/.DS_Store
+assets/img/.DS_Store
