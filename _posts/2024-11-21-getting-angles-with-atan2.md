@@ -2,7 +2,7 @@
 title: "Getting Angles Between Two Objects with `atan2`"
 category: codex
 layout: codex-entry
-tags: [pico8, math]
+tags: [pico8, math, dev]
 ---
 
 ## Goal
