@@ -2,7 +2,7 @@
 title: "Sin and Cos for Movement"
 category: codex
 layout: codex-entry
-tags: [pico8, math]
+tags: [pico8, math, dev]
 ---
 
 ## Goal
