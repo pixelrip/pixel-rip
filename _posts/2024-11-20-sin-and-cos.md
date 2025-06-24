@@ -22,8 +22,8 @@ It is fairly straightforward to get and object to move along an X and Y axis. Le
 
 ```lua
 
-player.x += 1 --increase x position; moves left
-player.x -= 1 --decrease x position; moves right
+player.x += 1 --increase x position; moves right
+player.x -= 1 --decrease x position; moves left
 player.y += 1 --increase y position; moves down
 player.y -= 1 --decrease y position; moves up
 
@@ -40,9 +40,11 @@ speed = 2.5
 
 ```
 
-The **angle** that our `sin()` and `cos()` functions need is a decimal value between 0 and 1. If you picture a complete circle then we start at the bottom with 0 (0° or "down") move clockwise:
+You'll rightly think of an **angle** as a value between 0 and 360°, but in PICO-8  our `sin()` and `cos()` functions need a decimal value in the 0-1 range to represent an angle. If you picture a full 360° circle on a PICO-8 screen, then 0 (or 0°) represents a `down`, and 0.5 (or 180°) represents `up`.
 
 ![Angles around a circle](/assets/img/angles.png)
+
+A further breakdown:
 
 - 0.25 is 90° (left)
 - 0.375 is 135° (up and left)
