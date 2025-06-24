@@ -93,7 +93,7 @@ end
 
 ```
 
-How does `collided()` know what to do? Interestingly, we want to rule out whether parts of 
+How does `collided()` know what to do? The function calculates the boundaries of both objects (top, bottom, left, right) by adding each object's position to its hitbox coordinates. Then it applies our four questions as conditional checks—if any of these checks return true, we know the objects aren't colliding and can immediately return false. Only if all four checks fail do we conclude the objects must be colliding.
 
 ```lua 
 
