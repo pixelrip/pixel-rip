@@ -1,0 +1,59 @@
+// Contact Form Styles
+.contact-form {
+  max-width: 600px;
+  margin: 2em 0;
+}
+
+.form-group {
+  margin-bottom: 1.5em;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5em;
+  color: var(--pico-white);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75em;
+  background-color: var(--pico-dark-blue);
+  border: 2px solid var(--pico-dark-gray);
+  border-radius: 2px;
+  color: var(--pico-white);
+  font-family: inherit;
+  font-size: inherit;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--hex-magenta);
+}
+
+.submit-btn {
+  background-color: var(--hex-magenta);
+  color: var(--pico-white);
+  border: none;
+  padding: 0.75em 2em;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.submit-btn:hover {
+  background-color: var(--pico-pink);
+}
+
+.submit-btn:disabled {
+  background-color: var(--pico-dark-gray);
+  cursor: not-allowed;
+}
+
+.form-status {
+  margin-top: 1em;
+}
