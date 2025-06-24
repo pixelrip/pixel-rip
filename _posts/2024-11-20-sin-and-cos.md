@@ -13,7 +13,9 @@ Move an object at a given speed and angle using `sin()` and `cos()` for the x an
 
 ![Playable Example](/assets/p8/movement-diagonal.png)
 
-<a href="/assets/p8/movement-diagonal.html" data-modal>Playable Example</a> - [GitHub](https://github.com/pixelrip/p8-codex/blob/main/movement-diagonal.p8)
+<!-- The HTML and accompanying JavaScript are compiled from PICO-8. If you are looking to better understand the example source code, ignore these and look at the linked .P8 file in PICO-8 or your favorite IDE. -->
+<a href="/assets/p8/movement-diagonal.html" data-modal>Playable Example</a> - [Source Code
+](/assets/p8/movement-diagonal.p8)
 
 
 ## How it Works

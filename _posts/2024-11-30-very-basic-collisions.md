@@ -13,7 +13,8 @@ Figure out if two objects in a 2D plane "collide."
 
 ![Playable Example](/assets/p8/collision.png)
 
-<a href="/assets/p8/collision.html">Playable Example</a> - [GitHub](https://github.com/pixelrip/p8-codex/blob/main/collision.p8)
+<!-- The HTML and accompanying JavaScript are compiled from PICO-8. If you are looking to better understand the example source code, ignore these and look at the linked .P8 file in PICO-8 or your favorite IDE. -->
+<a href="/assets/p8/collision.html">Playable Example</a> - [Source Code](/assets/p8/collision.p8)
 
 
 ## How it Works

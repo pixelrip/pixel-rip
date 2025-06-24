@@ -13,7 +13,8 @@ Fire a projectile between two objects. The projectile should be "aimed" at the t
 
 ![Playable Example](/assets/p8/atan2.png)
 
-<a href="/assets/p8/atan2.html" data-modal>Playable Example</a> - [GitHub](https://github.com/pixelrip/p8-codex/blob/main/atan2.p8)
+<!-- The HTML and accompanying JavaScript are compiled from PICO-8. If you are looking to better understand the example source code, ignore these and look at the linked .P8 file in PICO-8 or your favorite IDE. -->
+<a href="/assets/p8/atan2.html" data-modal>Playable Example</a> - [Source Code](/assets/p8/atan2.p8)
 
 ## How it Works
 
